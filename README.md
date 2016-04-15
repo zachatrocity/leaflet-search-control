@@ -14,4 +14,7 @@ A simple boilerplate for building your own leaflet search control
 	//add search control to map
 	L.control.search({}).addTo(map);
 ```
-- customize it to fit your needs in `leaflet-search-control.js` specifically the `keyp` and `itemSelected` selected functions
+- customize it to fit your needs in `leaflet-search-control.js` specifically the `keyup` and `itemSelected` selected functions
+
+#Thanks
+Thanks to [odoe](https://github.com/odoe]) for his search control [sample](https://github.com/odoe/leaflet-control-sample). This is essentially a fork of his project with the data specifics removed
